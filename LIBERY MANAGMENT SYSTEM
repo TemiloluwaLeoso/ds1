@@ -1,0 +1,18 @@
+class libary:
+    def _init_(self,list,name)
+        self.bookList = list
+        self.name = name
+        self.lendDict = {}
+    def displayBooks(self):
+        print(f"We have following books in our libery:{self.name}")
+        for books in self.booklist
+          print(book)
+    def lendBook(self, user, book):
+         if book not in self.lendDict.keys():
+            self.lendDict.update({book:user})
+            print("Lender-Book database has been updated. You can take the book now")
+        else:
+        print(f"Book is already being used by {self.lendDict[book]}")
+    def addBook(self, book):
+
+    
